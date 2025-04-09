@@ -1,50 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subham Kumar Mohanty | Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      background-color: #f0f2f5;
       margin: 0;
-    }
-
-    .outside {
-      background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       padding: 20px;
       display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 24px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .header {
+      display: flex;
+      flex-wrap: wrap;
       align-items: center;
       gap: 20px;
     }
 
-    .inside h2 {
+    .header img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .info h2 {
       margin: 0 0 10px 0;
     }
 
-    img {
-      border-radius: 50%;
-      object-fit: cover;
+    section {
+      margin-top: 30px;
+    }
+
+    h3 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      color: #333;
+    }
+
+    p, li {
+      color: #555;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="outside">
-    <img src="IMAGE.jpg" alt="Profile photo of Subham Kumar Mohanty" height="250" width="250">
-    <div class="inside">
-      <h2>Name: Subham Kumar Mohanty</h2>
-      <p>Registration Number: 2141013232</p>
-      <p>Branch: ECE</p>
-      <p>Section: B</p>
-      <p>CGPA: 8.04</p>
+  <div class="container">
+    <div class="header">
+      <img src="IMAGE.jpg" alt="Profile photo of Subham Kumar Mohanty" />
+      <div class="info">
+        <h2>Subham Kumar Mohanty</h2>
+        <p><strong>Reg. No:</strong> 2141013232</p>
+        <p><strong>Branch:</strong> ECE | Section B</p>
+        <p><strong>CGPA:</strong> 8.04</p>
+        <p><strong>Phone:</strong> +91 9692394970</p>
+        <p><strong>Email:</strong> <a href="mailto:mohantysubham187@gmail.com">mohantysubham187@gmail.com</a></p>
+        <p>
+          <a href="https://github.com/AshutoshDas0987" target="_blank">GitHub</a>
+        </p>
+      </div>
     </div>
+
+    <section>
+      <h3>Profile Summary</h3>
+      <p>Eager electronics engineering final year student with a passion for innovation and problem solving. Solid foundation in electronics fundamentals with hands-on experience. Skilled in analyzing complex problems, designing solutions, and working in both independent and team environments.</p>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <ul>
+        <li><strong>B.Tech (ECE)</strong> - ITER, SOA University, Bhubaneswar – 7.9 CGPA (till 6th semester)</li>
+        <li><strong>12th (CBSE)</strong> – ST. Xavier's High School, Bhubaneswar – 71%</li>
+        <li><strong>10th (CBSE)</strong> – DAV Public School, Bhubaneswar – 82%</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Industry Projects</h3>
+      <ul>
+        <li><strong>Automatic Streetlights</strong> using Arduino Uno and LDR – Controls streetlights based on ambient light conditions to conserve energy.</li>
+        <li><strong>QR & Barcode Scanner</strong> – Built using Arduino and camera module for decoding various codes with image processing.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <ul>
+        <li>Java (Basics)</li>
+        <li>C++<li>
+        <li>linux<li>
+        <li>MATLAB</li>
+      </ul>
+    </section>
+
+   
+
+    <section>
+      <h3>Seminars & Workshops</h3>
+      <ul>
+        <li>PwC AC India: Cloud & Digital Launchpad Program FY24</li>
+        <li>LTI Mindtree Guest Lecture</li>
+        <li>L&T EduTech Student Orientation</li>
+        <li>Tata Technologies InnoVent Demo Day</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Extra-Curricular Activities</h3>
+      <ul>
+        <li>Member – SOA Literary Club (SLC)</li>
+        <li>Member – SOA Esports Club</li>
+        <li>Event Management Committee Member</li>
+      </ul>
+    </section>
   </div>
 </body>
 </html>
