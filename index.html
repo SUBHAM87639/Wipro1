@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .outside {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .inside h2 {
+      margin: 0 0 10px 0;
+    }
+
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
-    <div class="outside">
-        <img src="IMAGE.jpg" alt="" height="250px" width="250px">
-
-        <div class="inside">
-            <h2>Name : Subham Kumar Mohanty</h2>
-            <p>Registration Number : 2141013232</p>
-            <p>Branch: ECE</p>
-            <p>Section : B</p>
-            <p>CGPA : 8.04</p>
-        </div>
+  <div class="outside">
+    <img src="IMAGE.jpg" alt="Profile photo of Subham Kumar Mohanty" height="250" width="250">
+    <div class="inside">
+      <h2>Name: Subham Kumar Mohanty</h2>
+      <p>Registration Number: 2141013232</p>
+      <p>Branch: ECE</p>
+      <p>Section: B</p>
+      <p>CGPA: 8.04</p>
     </div>
+  </div>
 </body>
 </html>
